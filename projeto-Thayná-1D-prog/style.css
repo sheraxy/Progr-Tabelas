@@ -1,0 +1,17 @@
+.josefina{
+    padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        width:300px;
+        text-align:left;
+    }
+    
+    body{
+        font-family: Arial, sans-serif;
+     background-color: #da73f1; 
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0; 
+    }
