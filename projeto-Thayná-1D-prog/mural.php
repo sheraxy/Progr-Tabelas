@@ -57,10 +57,10 @@ $(document).ready(function() {
 </div>
 
 <?php
-$seleciona = mysqli_query($conexao, "SELECT * FROM aluno ORDER BY id DESC");
+$seleciona = mysqli_query($conexao, "SELECT * FROM aluno ORDER BY ID DESC");
 while($res = mysqli_fetch_assoc($seleciona)){
     echo '<ul class="recados">';
-    echo '<li><strong>ID:</strong> ' . $res['id'] . '</li>';
+    echo '<li><strong>ID:</strong> ' . $res['ID'] . '</li>';
     echo '<li><strong>Nome:</strong> ' . htmlspecialchars($res['Nome']) . '</li>';
     echo '<li><strong>Email:</strong> ' . htmlspecialchars($res['Email']) . '</li>';
     echo '<li><strong>Mensagem:</strong> ' . nl2br(htmlspecialchars($res['Mensagem'])) . '</li>';
@@ -68,7 +68,7 @@ while($res = mysqli_fetch_assoc($seleciona)){
 }
 ?>
 
-<div id="footer">
+<div ID="footer">
 
 </div>
 </div>
